@@ -1,5 +1,19 @@
 import { createApp } from 'vue'
-import './style.css'
+import './main.css'
 import App from './App.vue'
+import { createRouter, createWebHistory } from 'vue-router'
 
-createApp(App).mount('#app')
+import Home from '../src/views/Home.vue'
+import NotFound from '../src/views/NotFound.vue'
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes: [
+        { path: '/', component: Home },
+        { path: '/:pathMatch(.*)*', component: NotFound }
+    ]
+})
+
+const app = createApp(App)
+app.use(router)
+app.mount('#app')

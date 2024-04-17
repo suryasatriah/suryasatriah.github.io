@@ -1,0 +1,40 @@
+#hero {
+    font-family: "Lato", sans-serif;
+  }
+
+.picture {
+  animation: floating 3s infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  75% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.rounded-rectangle {
+    background: cyan;
+    color: white;
+    width: fit-content;
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: 1px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
