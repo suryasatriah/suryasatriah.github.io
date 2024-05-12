@@ -1,12 +1,3 @@
-.fa.social {
-  padding: 1rem;
-  font-size: x-large;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 0.5rem;
-}
-
 .social:hover {
   transform: scale(1.1);
 }
@@ -47,4 +38,16 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.fa.social {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: black;
+  width: auto;
 }
