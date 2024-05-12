@@ -1,0 +1,53 @@
+.social:hover {
+  transform: scale(1.1);
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  margin: 0.5rem 0 0.5rem 0;
+  resize: vertical;
+  background-color: transparent;
+}
+
+#send-button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  margin: 0.5rem 0 0.5rem 0;
+  resize: vertical;
+  background-color: transparent;
+}
+
+#send-button:hover {
+  background-color: blue;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background: yellow;
+}
+
+#contacts li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fa.social {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: black;
+  width: auto;
+}
